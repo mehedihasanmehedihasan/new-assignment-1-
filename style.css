@@ -1,0 +1,34 @@
+body{
+    background-image: url(im/472428683_122175997274093856_4694167792055623039_n.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+  margin: 0 auto;
+    align-items: center;
+    max-width: 1200px;
+    
+    
+ }
+ h1{
+font-size: 50px;
+color: rgb(0, 0, 0);
+ }
+ button{
+    width: 140px;
+    height:70px ;
+    font-size: 30px;
+    border-radius: 20px;
+    background-color: w;
+    color: rgb(255, 127, 127);
+ }
+ button:hover{
+    background-color: cornflowerblue;
+    color: white;
+    cursor: pointer;
+
+}
