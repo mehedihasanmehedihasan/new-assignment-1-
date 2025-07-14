@@ -57,7 +57,7 @@ font-weight: bold;
  
  .btn{
        height: 56px ;
-       width:270px ;
+       width:250px ;
        font-size: 18px;
        border-radius: 8px;
         background-color: cyan;
@@ -68,18 +68,20 @@ height:326px;
 text-align: center;
 margin:100px 60px ;
  }
-  /* div */
-  .hiden{
+ .hiden{
     font-size:40px ;
     font-weight: bold;
     max-width: 1200px;
      margin: 0 auto;
   }
+  /* div */
+  
   .discription-cotiner {
    max-width: 1200px;
    display: flex;
    margin: 0 auto;
    gap: 24px;
+   
 
   }
   .discription-child{
@@ -88,13 +90,14 @@ margin:100px 60px ;
     height: 244px;
     padding: 15px;
     border-radius:12px ;
+    background-color:  khaki;
 
   }
   .png{
    
     width: 64px;
     height: 64px;
-    margin: 24px ;
+    margin: 17px ;
   }
   h2{
     font-size: 25px;
@@ -103,3 +106,65 @@ margin:100px 60px ;
   .p2{
     font-size: 16px;
   }
+  .line-paragrp{
+    max-width:1200px ;
+    margin:0 auto ;
+  
+ 
+  }
+  .titlee{
+    font-size: 40px;
+    color: black;
+  }
+  .titles{
+    font-size: 19px;
+    color: #4b4747;
+  }
+  /* img= */
+  .dad-countar{
+     display: flex;
+  justify-content:space-between;
+  background-color:#C6E4D6;
+    max-width: 1200px;
+    height:420px;
+    border-radius:12px;
+     margin:0px auto ;
+  } 
+.png-img{
+   width:408px;
+   height: 306px;
+   border-radius: 30px;
+   margin: auto 48px ;
+   display: inline-block;
+}
+.hi-section{
+ font-size: 31px;
+ font-weight: bold;
+}
+/* name */
+.name{
+   max-width: 1200px;
+   margin: 0 auto;
+   text-align: center;
+}
+.main-contoiner{
+    max-width: 1200px;
+  display: flex;
+  justify-content:space-around;
+
+  margin:0 auto ;
+}
+.box-cotiner{
+  display:flex;
+   max-width: 200px;
+   border: 2px gray solid;
+   height: 128px;
+   justify-content: center;
+   align-items: center;
+   border-radius: 20px;
+   background-color:rgb(193, 193, 193);
+}
+.font{
+  font-size: 50px;
+}
+ 
