@@ -1,34 +1,65 @@
-body{
-    background-image: url(im/472428683_122175997274093856_4694167792055623039_n.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-
-}
 
 nav{
     display: flex;
     justify-content: space-between;
-  margin: 0 auto;
+    margin: 0 auto;
     align-items: center;
     max-width: 1200px;
+    height:100px;
     
     
  }
- h1{
-font-size: 50px;
+ nav h1{
+font-size: 32px;
 color: rgb(0, 0, 0);
  }
- button{
-    width: 140px;
-    height:70px ;
+  nav button{
+    height:52px ;
+    width:116px ;
     font-size: 30px;
-    border-radius: 20px;
-    background-color: w;
-    color: rgb(255, 127, 127);
+    border-radius: 8px;
+    background-color: cyan;
+    color: rgb(8, 1, 1);
+   
  }
  button:hover{
-    background-color: cornflowerblue;
-    color: white;
+    background-color: rgb(237, 100, 100);
+    color: rgb(67, 50, 198);
     cursor: pointer;
-
 }
+/* nav */
+ .cover-continer{
+  display: flex;
+  justify-content: space-between;
+  background-color:#C6E4D6;
+    max-width: 1200px;
+     margin: 0 auto;
+ border-radius: 10px;
+ }
+ .cover-title{
+width:622px;
+height:326px;
+margin:80px 60px ;
+ }
+ h1{
+font-size: 40px;
+color: rgb(0, 0, 0);
+ }
+ p{
+   margin-left: 8px;
+ }
+ 
+ .btn{
+       height: 56px ;
+       width:270px ;
+       font-size: 18px;
+       border-radius: 8px;
+        background-color: cyan;
+ }
+ .cover-pic{
+   width:622px;
+height:326px;
+margin:100px 60px ;
+ }
+  
+  
