@@ -1,4 +1,6 @@
-
+body{
+  background-color: aliceblue;
+}
 nav{
     display: flex;
     justify-content: space-between;
@@ -12,6 +14,7 @@ nav{
  nav h1{
 font-size: 32px;
 color: rgb(0, 0, 0);
+font-weight: bold;
  }
   nav button{
     height:52px ;
@@ -28,6 +31,8 @@ color: rgb(0, 0, 0);
     cursor: pointer;
 }
 /* nav */
+
+/* header */
  .cover-continer{
   display: flex;
   justify-content: space-between;
@@ -44,6 +49,7 @@ margin:80px 60px ;
  h1{
 font-size: 40px;
 color: rgb(0, 0, 0);
+font-weight: bold;
  }
  p{
    margin-left: 8px;
@@ -59,7 +65,41 @@ color: rgb(0, 0, 0);
  .cover-pic{
    width:622px;
 height:326px;
+text-align: center;
 margin:100px 60px ;
  }
-  
-  
+  /* div */
+  .hiden{
+    font-size:40px ;
+    font-weight: bold;
+    max-width: 1200px;
+     margin: 0 auto;
+  }
+  .discription-cotiner {
+   max-width: 1200px;
+   display: flex;
+   margin: 0 auto;
+   gap: 24px;
+
+  }
+  .discription-child{
+    border: 2px grey solid;
+    width:302px ;
+    height: 244px;
+    padding: 15px;
+    border-radius:12px ;
+
+  }
+  .png{
+   
+    width: 64px;
+    height: 64px;
+    margin: 24px ;
+  }
+  h2{
+    font-size: 25px;
+    margin: 10px 0;
+  }
+  .p2{
+    font-size: 16px;
+  }
