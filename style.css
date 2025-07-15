@@ -120,29 +120,41 @@ margin:100px 60px ;
     font-size: 19px;
     color: #4b4747;
   }
-  /* img= */
-  .dad-countar{
-     display: flex;
-  justify-content:space-between;
-  background-color:#C6E4D6;
-    max-width: 1200px;
-    height:420px;
-    border-radius:12px;
-     margin:0px auto ;
-  } 
-.png-img{
-   width:408px;
-   height: 306px;
-   border-radius: 30px;
-   margin: auto 48px ;
-   display: inline-block;
-}
-.hi-section{
- font-size: 31px;
- font-weight: bold;
-}
-/* name */
-.name{
+  /*section */
+    .card{
+      max-width:1100px;
+      display:flex ;
+      margin: 0 auto;
+      background-color: #C6E4D6;
+      padding: 48px 48px;
+      border-radius: 12px;
+  
+    }
+    .section-img{
+         width: 408px;
+       height: 306px;       
+    border-radius: 44px;
+     margin :0 auto ;
+   
+    }
+    .card-content{
+     margin :-25px 25px ;
+     max-width:744px;
+   
+    }
+    .card-title
+    {
+      font-size:32px ;
+      font-weight: bold;
+    }
+    .card-description{
+      font-size:16px ;
+    }
+    .Pillars{
+      padding:26px 13px ;
+    }
+    /* donet */
+ .name{
    max-width: 1200px;
    margin: 0 auto;
    text-align: center;
@@ -151,20 +163,55 @@ margin:100px 60px ;
     max-width: 1200px;
   display: flex;
   justify-content:space-around;
-
   margin:0 auto ;
 }
 .box-cotiner{
   display:flex;
-   max-width: 200px;
+   max-width: 252px;
    border: 2px gray solid;
-   height: 128px;
+   height: 125px;
    justify-content: center;
    align-items: center;
    border-radius: 20px;
    background-color:rgb(193, 193, 193);
+   cursor: pointer;
 }
 .font{
   font-size: 50px;
 }
- 
+ .box-cotiner1{
+  display:flex;
+   max-width: 252px;
+   border: 2px gray solid;
+   height: 125px;
+   justify-content: center;
+   align-items: center;
+   border-radius: 20px;
+   background-color:#47c48a ;
+
+   cursor: pointer;
+}
+.font{
+  font-size: 50px;
+  margin: 10px 0;
+}
+.input-item{
+   position: 10px;
+}
+.disan{
+ margin-top: 20px;
+  width: 1032px;
+  height: 64px;
+  margin: 0 auto;
+  display: block;
+  font-size: 25px;
+  text-align: center;
+  border-radius: 12px;
+}
+.Done{
+  
+ display: block; 
+  margin: 0 auto;
+  align-items: center;
+  text-align: center;
+} 
